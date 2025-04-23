@@ -109,7 +109,7 @@ local function discord_notify(collection, rewards)
 end
 
 task.spawn(function()
-    while true do task.wait(300) 
+    while true do task.wait(180) 
         local success, err = pcall(function()
             local rewards = getValue() or 'None'
             local collection = getCollection() or {}
