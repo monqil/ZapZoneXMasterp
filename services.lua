@@ -391,7 +391,11 @@ elseif loadconfigs()['Store-Configs'] == "Buble" then
     _G.banerUrl = 'https://images-ext-1.discordapp.net/external/eSd5CCWnNTdF05iDMSqm_9cqWVKVxW6xjF7P6FNFaiM/https/m.openlink.co/images/bubbleshop/cover_1733316312.png'
     _G.avatarUrl = 'https://media.discordapp.net/attachments/1142448438529765389/1356275092404830299/newlogo.png'
 end
-pcall(function()lloadstring(game:HttpGet("https://raw.githubusercontent.com/monqil/ZapZoneXMasterp/main/Library/" .. game.PlaceId .. ".lua"))()end)
+local x, p = pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/monqil/ZapZoneXMasterp/main/Library/" .. game.PlaceId .. ".lua"))()end)
+
+if not x then
+    warn('error'.. tostring(p))
+end
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Success Continue", -- Required
     Text = "", -- Required
