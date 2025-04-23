@@ -1,0 +1,1 @@
+print('Arise Crossover [AFK]')
