@@ -381,13 +381,13 @@ end
 if loadconfigs()['Store-Configs'] == "ZapZone" then
     _G.avatarName = "ZapZone - AFK [Test]"
     _G.colorEmbed = 16755219
-    _G.webhookUrl = 'https://discord.com/api/webhooks/1364217417454063658/kuIJXo7PNFkKBbGUoL2LpzRFvfcf5ypFutpyr-7rghjrbBHYHMRVrgJdyUAw-AdcY-EJ'
+    _G.webhookUrl = 'https://discord.com/api/webhooks/1355475491271872572/fpo0q101h_75aqOKwIODnpIQbht2Hxwe5xN5KcpeqGC8-Je2WxzMmpL60AOKhUkRfCVD'
     _G.banerUrl = 'https://media.discordapp.net/attachments/1142448438529765389/1355464540376141914/face.png'
     _G.avatarUrl = 'https://media.discordapp.net/attachments/1142448438529765389/1355464540002975774/ZAPPPP.png'
 elseif loadconfigs()['Store-Configs'] == "Buble" then
     _G.avatarName = "Buble - AFK [Test]"
     _G.colorEmbed = 13133055
-    _G.webhookUrl = 'https://discord.com/api/webhooks/1364217417454063658/kuIJXo7PNFkKBbGUoL2LpzRFvfcf5ypFutpyr-7rghjrbBHYHMRVrgJdyUAw-AdcY-EJ'
+    _G.webhookUrl = 'https://discord.com/api/webhooks/1356335316595904604/F8tKeofSfQzOiHOjMMQEfZ15ey4JqbaknbATy02LJdQJcVqnSNpj51eM35jm7m7WW9-G'
     _G.banerUrl = 'https://images-ext-1.discordapp.net/external/eSd5CCWnNTdF05iDMSqm_9cqWVKVxW6xjF7P6FNFaiM/https/m.openlink.co/images/bubbleshop/cover_1733316312.png'
     _G.avatarUrl = 'https://media.discordapp.net/attachments/1142448438529765389/1356275092404830299/newlogo.png'
 end
