@@ -1,0 +1,1 @@
+print('Anime Vanguards [AFK]')
