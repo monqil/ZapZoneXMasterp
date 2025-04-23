@@ -394,7 +394,7 @@ end
 local x, p = pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/monqil/ZapZoneXMasterp/main/Library/" .. game.PlaceId .. ".lua"))()end)
 
 if not x then
-    warn('error'.. tostring(p))
+    warn('error: '.. tostring(p))
 end
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Success Continue", -- Required
